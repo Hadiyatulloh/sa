@@ -1,0 +1,329 @@
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                        text-decoration: none;
+                        list-style-type: none;
+                    }
+                    
+                    .header {
+                        max-width: 1440px;
+                    }
+                    
+                    .nav {
+                        padding: 100px 90px;
+                        max-width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                    
+                    .nav ul {
+                        font-size: 18px;
+                        font-weight: 300;
+                        text-align: center;
+                        gap: 40px;
+                        display: flex;
+                    }
+                    
+                    .header-contant {
+                        max-width: 100%;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                    }
+                    
+                    .h1 {
+                        font-size: 50px;
+                        font-weight: 900;
+                        min-width: 300px;
+                    }
+                    
+                    .btn {
+                        padding: 15px 20px;
+                        margin-top: 90px;
+                        background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+                        color: white;
+                        font-size: 12px;
+                        border-radius: 7px;
+                        border: 1px solid white;
+                    }
+                    
+                    .section {
+                        max-width: 1440px;
+                        text-align: center;
+                    }
+                    
+                    .section_contant-h1 {
+                        padding: 40px;
+                        font-size: 30px;
+                        font-weight: 400;
+                        line-height: 58.59px;
+                        gap: 30px;
+                    }
+                    
+                    .card {
+                        border-radius: 11px;
+                        width: 345px;
+                    }
+                    
+                    .cards {
+                        text-align: left;
+                        width: 100%;
+                        justify-content: space-around;
+                        display: flex;
+                    }
+                    
+                    .card h1,
+                    p {
+                        padding: 10px;
+                    }
+                    
+                    .section2 {
+                        background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+                        height: 357px;
+                        margin-top: 100px;
+                        max-width: 1440px;
+                    }
+                    
+                    .box2 {
+                        display: flex;
+                        justify-content: space-evenly;
+                        align-items: center;
+                    }
+                    
+                    .img11 {
+                        position: absolute;
+                        bottom: -720px;
+                        left: 480px;
+                    }
+                    
+                    .img2 {
+                        position: absolute;
+                        bottom: -720px;
+                        left: 940px;
+                    }
+                    
+                    .img3 {
+                        position: absolute;
+                        bottom: -720px;
+                        left: 1400px;
+                    }
+                    
+                    .box {
+                        padding-left: 80px;
+                        padding-right: 80px;
+                        text-align: center;
+                        background-color: white;
+                        border-radius: 17px;
+                        width: 436px;
+                        height: 187px;
+                    }
+                    
+                    .box p {
+                        margin-top: 50px;
+                    }
+                    
+                    .footer {
+                        max-width: 1440px;
+                        justify-content: space-around;
+                        align-items: center;
+                        height: 340px;
+                        display: flex;
+                    }
+                    
+                    .n h1 {
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 16.41px;
+                    }
+                    
+                    .nn h1 {
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 16.41px;
+                    }
+                    
+                    .nnn h1 {
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 16.41px;
+                    }
+                    
+                    .nn h3 {
+                        margin-top: 10px;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 9.5px;
+                    }
+                    
+                    .nnn h3 {
+                        margin-top: 10px;
+                        font-size: 10px;
+                    }
+                    
+                    .nnn,
+                    .nn,
+                    .n {
+                        width: 224px;
+                    }
+                    
+                    .n img {
+                        margin-top: 10px;
+                    }
+                    
+                    @media(max-width: 1100px) {
+                        .n,
+                        .nn,
+                        .nnn {
+                            width: 190px;
+                        }
+                        .box2 {
+                            height: 700px;
+                            flex-direction: column;
+                        }
+                        .box {
+                            width: 700px;
+                        }
+                        .card img {
+                            width: 700px;
+                            height: 300px;
+                        }
+                        .card {
+                            height: 500px;
+                            width: 700px;
+                        }
+                        .card h1,
+                        p {
+                            margin-top: 30px;
+                        }
+                        .cards {
+                            margin: 0 auto;
+                            align-items: center;
+                            flex-direction: column;
+                            gap: 100px;
+                        }
+                    }
+                    
+                    @media (max-width: 775px) {
+                        .nav img {
+                            width: 100px;
+                            height: 25px;
+                            margin-bottom: -200px;
+                        }
+                        .btn {
+                            padding: 7px 13px;
+                            font-size: 8px;
+                        }
+                        .card h1 {
+                            font-size: 20px;
+                        }
+                        .card p {
+                            font-size: 10px;
+                        }
+                        .card {
+                            height: 200px;
+                            max-width: 400px;
+                        }
+                        .card h1,
+                        p {
+                            margin-top: 10px;
+                        }
+                        .cards {
+                            width: 100%;
+                            margin: 0 auto;
+                            align-items: center;
+                            flex-direction: column;
+                            gap: 100px;
+                        }
+                        .img1 {
+                            width: 340px;
+                        }
+                        .h1 {
+                            font-size: 30px;
+                        }
+                        .nav ul {
+                            display: none;
+                        }
+                        .card img {
+                            max-width: 400px;
+                            height: 100px;
+                        }
+                        .box2 {
+                            height: 700px;
+                            flex-direction: column;
+                        }
+                        .box {
+                            margin: auto;
+                            padding: auto;
+                            max-width: 500px;
+                            height: 150px;
+                        }
+                        .h1 {
+                            font-size: 19px;
+                        }
+                        .h11,
+                        span {
+                            font-size: 20px;
+                        }
+                    }
+                    
+                    @media(max-width:575px) {
+                        .header-contant {
+                            margin-top: -50px;
+                            flex-direction: column-reverse;
+                            background-image: url(bacc.png);
+                            background-size: 200px;
+                            text-align: center;
+                        }
+                        .img1 {
+                            display: none;
+                        }
+                        .h1 {
+                            font-size: 25px;
+                        }
+                        .nav img {
+                            margin: 0 auto;
+                            width: 100px;
+                        }
+                        .btn {
+                            margin-bottom: 20px;
+                        }
+                        .card h1 {
+                            font-size: 20px;
+                        }
+                        .card p {
+                            font-size: 10px;
+                        }
+                        .card {
+                            height: 200px;
+                            max-width: 200px;
+                        }
+                        .card h1,
+                        p {
+                            margin-top: 2px;
+                        }
+                        .cards {
+                            width: 100%;
+                            margin: 0 auto;
+                            align-items: center;
+                            flex-direction: column;
+                            gap: 100px;
+                        }
+                        .card img {
+                            max-width: 200px;
+                            height: 100px;
+                        }
+                        .box2 {
+                            height: 1200px;
+                            flex-direction: column;
+                        }
+                        .box {
+                            margin-top: 10px;
+                            max-width: 300px;
+                            height: 300px;
+                        }
+                        .footer {
+                            flex-direction: column;
+                        }
+                    }
